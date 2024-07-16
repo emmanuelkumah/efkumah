@@ -5,18 +5,25 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", flowbite.content()],
   theme: {
     screens: {
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
+      xs: "450px",
     },
     fontFamily: {
       display: ["Space Grotesk", "sans-serif"],
     },
     extend: {
+      colors: {
+        primary: "#050816",
+        secondary: "#aaa6c3",
+        tertiary: "#151030",
+        "black-100": "#100d25",
+        "black-200": "#090325",
+        "white-100": "#f3f3f3",
+      },
+      boxShadow: {
+        card: "0px 35px 120px -15px #211e35",
+      },
       backgroundImage: {
-        "my-gradient":
-          "linear-gradient(102deg, rgba(3, 5, 29, 0.85) 2.11%, rgba(255, 0, 0, 0.85) 100%)",
+        "hero-pattern": "url('/src/assets/herobg.png')",
       },
     },
   },

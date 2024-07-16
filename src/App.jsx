@@ -1,15 +1,14 @@
 import "./App.css";
-import { About, Layout } from "./components";
-import Hero from "./components/Hero";
+import { About, Layout, Hero, Navigation } from "./components";
 
 function App() {
   return (
     <>
-      <div className="min-h-screen bg-slate-900 font-display">
-        <Layout>
+      <div className="relative z-0 bg-primary font-display h-screen">
+        <div>
+          <Navigation />
           <Hero />
-          <About />
-        </Layout>
+        </div>
       </div>
     </>
   );
