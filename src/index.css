@@ -1,7 +1,7 @@
 @tailwind base;
 @layer base {
-  html {
-    @apply text-green-500;
+  body {
+    @apply font-display bg-primary text-white;
   }
 }
 @tailwind components;
@@ -69,12 +69,12 @@ h6 {
 #__next {
   isolation: isolate;
 }
-.violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+.green-gradient {
+  background: #00ff99;
+  background: linear-gradient(-90deg, #00ff99 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #00ff99 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
