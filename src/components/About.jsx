@@ -13,8 +13,9 @@ const About = () => {
             <p className={`${styles.paragraph}`}>
               My first experience with web development was building WordPress
               websites. After that, I learned some PHP programming, but I had
-              trouble understanding it. I decided to focus on learning HTML and
-              CSS. This allowed me to build more complex websites with more
+              trouble understanding it. Hence, I decided to focus on learning
+              HTML and CSS to get the fundamental skills for coding websites .
+              This allowed me to build more complex websites with more
               functionality. I also started learning more about responsive
               design and user experience.
             </p>
