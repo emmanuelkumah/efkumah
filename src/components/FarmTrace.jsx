@@ -51,7 +51,7 @@ const FarmTrace = () => {
           client side routing only. However, I noticed it does a good job
           loading data to a specified route, capturing form data, as well as
           mutating data. I switched to React router and that improved the code
-          structure and readablity
+          structure and readablity.
         </p>
       </section>
     </>
