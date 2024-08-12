@@ -14,7 +14,7 @@ const styles = {
     "text-accent font-light lg:text-[32px] sm:text-[20px] xs:text-[20px] text-[24px] mt-2",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider py-2",
-  paragraph: "text-[20px]",
+  paragraph: "text-[18px] leading-loose",
 };
 
 export { styles };

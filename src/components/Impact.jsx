@@ -6,11 +6,11 @@ import coding from "../assets/coding.png";
 const Impact = () => {
   return (
     <>
-      <div className="container mx-auto mt-10">
+      <div className="mt-10">
         <h2 className={`${styles.sectionHeadText}`}>Impact 💪🏽 </h2>
         <section>
           <h6 className="text-xl text-accent mt-2">
-            Digital Skills for Women{" "}
+            Digital Skills for Women 👩🏾‍🤝‍👩🏻
           </h6>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10">
             <section className={`${styles.paragraph}`}>
@@ -58,7 +58,7 @@ const Impact = () => {
         </section>
         <section className="mt-10">
           <h6 className="text-xl text-accent mt-2">
-            Kids Summer School in Web Programming
+            Kids Summer School in Web Programming 👨‍💻
           </h6>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10">
             <div>
@@ -85,6 +85,10 @@ const Impact = () => {
                 age and that the earlier children develop them, the better. We
                 also believe that these skills should be taught in a fun and
                 engaging way.
+              </p>
+              <p>
+                The kids learn HTML and CSS fundamentals to build three web
+                projects within a four week duration.
               </p>
             </section>
           </div>

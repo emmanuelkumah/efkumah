@@ -4,25 +4,25 @@ import { emma2 } from "../assets";
 const About = () => {
   return (
     <>
-      <div className="container max-auto mt-10">
+      <div className="mt-10">
         <h2 className={`${styles.sectionHeadText}`}>About me</h2>
         <h2 className={`${styles.sectionSubText}`}>My Tech Journey</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10">
           <div>
             <p className={`${styles.paragraph}`}>
-              My first experience with web development was building WordPress
-              websites. After that, I learned some PHP programming, but I had
-              trouble understanding it. Hence, I decided to focus on learning
-              HTML and CSS to get the fundamental skills for coding websites .
-              This allowed me to build more complex websites with more
-              functionality. I also started learning more about responsive
-              design and user experience.
+              My first experience with web development was when a friend
+              introduced me to building WordPress websites. After that, I read
+              some book on PHP programming, but it was totally unscrutable to
+              me. Later, I decided to focus on learning HTML and CSS to get the
+              fundamental skills for coding websites. Without a detailed
+              roadmap, and lacking the required staying power, I nearly
+              abandoned a programming career.
             </p>
             <p className={`${styles.paragraph} mt-3`}>
-              Now, programming is an obsession. I develop front-end web
-              applications that meet business needs using JavaScript (React,
-              NextJS, TypeScript).
+              Since then, I have been honing my skills with JavaScript. I
+              develop front-end web applications that meet business needs using
+              JavaScript (React, NextJS, TypeScript).
             </p>
             <p className={`${styles.paragraph} mt-3`}>
               In my early career, I worked for a fin-tech startup as a Product
