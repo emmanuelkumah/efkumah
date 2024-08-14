@@ -11,7 +11,7 @@ const styles = {
     "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
 
   sectionHeadText:
-    "text-accent font-light lg:text-[32px] sm:text-[20px] xs:text-[20px] text-[24px] mt-2",
+    "text-accent font-light  lg:text-[32px] sm:text-[20px] xs:text-[20px] text-[24px] mt-2",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider py-2",
   paragraph: "text-[18px] leading-loose",

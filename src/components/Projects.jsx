@@ -7,8 +7,8 @@ const Projects = () => {
   return (
     <>
       <div className="mt-10">
-        <h2 className={`${styles.sectionHeadText}`}>
-          What I have been working on 💪🏽{" "}
+        <h2 className={`${styles.sectionHeadText} `}>
+          What I have been working on <span>💪🏽</span>
         </h2>
         <section>
           <FarmTrace />

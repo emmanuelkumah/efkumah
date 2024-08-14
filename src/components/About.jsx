@@ -29,8 +29,8 @@ const About = () => {
               Developer. Then, I transitioned into Product Operations
               (strengthening customer feedback and scaling product knowledge).
               Later, a role in digital strategy. That involved engaging with
-              prospective and existing clients to understand their digital
-              needs.
+              prospective and existing clients to understand their digital needs
+              and provide bespoke digital solutions.
             </p>
           </div>
           <div>

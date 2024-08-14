@@ -82,12 +82,11 @@ const Impact = () => {
               </p>
               <p>
                 I believe these skills are essential for success in the digital
-                age and that the earlier children develop them, the better. We
-                also believe that these skills should be taught in a fun and
+                age and that the earlier children develop them, the better.
                 engaging way.
               </p>
               <p>
-                The kids learn HTML and CSS fundamentals to build three web
+                The trainees learn HTML and CSS fundamentals to build three web
                 projects within a four week duration.
               </p>
             </section>
