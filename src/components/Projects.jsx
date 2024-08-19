@@ -6,7 +6,7 @@ import Chirrpy from "./Chirrpy";
 const Projects = () => {
   return (
     <>
-      <div className="mt-10">
+      <div id="work" className="mt-10">
         <h2 className={`${styles.sectionHeadText} `}>
           What I have been working on <span>💪🏽</span>
         </h2>

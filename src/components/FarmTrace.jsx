@@ -1,9 +1,11 @@
 import React from "react";
 import { styles } from "../styles";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 const FarmTrace = () => {
   return (
     <>
-      <div className="bg-[#0B132B] rounded-xl p-10 mt-10">
+      <div className="bg-[#0B132B] rounded-xl p-4 md:p-10 mt-10">
         <h3 className={`${styles.sectionHeadText}`}>Farm Trace</h3>
         <section>
           <p className={`${styles.paragraph}`}>
@@ -11,12 +13,14 @@ const FarmTrace = () => {
             enables farm agents and extension officers to record and track
             farming activities of over 400 farmers in the North-East region of
             Ghana. Users can also enter a batch number to get further details on
-            the package product.There are a total of 9 tracked farming
+            the packaged product.There are a total of 9 tracked farming
             activities. It begins with the Pre-Planting and ends with the
             shipment.
           </p>
         </section>
-        <section>Image goes here</section>
+        <section>
+          <LiteYouTubeEmbed id="rAo_71ADxDQ" title="Farm trace web app demo" />
+        </section>
         <section>
           <h3
             className={`${styles.sectionSubText} pl-4 border-l-4 border-emerald-400 mt-4`}
@@ -61,7 +65,7 @@ const FarmTrace = () => {
             Spotlight
           </h3>
           <p className={`${styles.paragraph}`}>
-            Initial used the useState, useContext, and useReducer hooks to
+            Initially used the useState, useContext, and useReducer hooks to
             manage state and the state update logic. React Router was being used
             for client side routing only. However, I noticed it does a good job
             loading data to a specified route, capturing form data, as well as

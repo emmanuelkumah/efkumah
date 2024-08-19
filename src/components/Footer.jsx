@@ -8,7 +8,7 @@ import { PiDevToLogoFill } from "react-icons/pi";
 const Footer = () => {
   return (
     <>
-      <footer className="border my-10 rounded-xl p-10">
+      <footer id="contact" className="border my-10 rounded-xl p-10">
         <h2>
           Let's <span className={`${styles.sectionHeadText}`}>build </span>{" "}
           something

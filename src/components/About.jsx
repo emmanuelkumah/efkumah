@@ -4,7 +4,7 @@ import { emma2 } from "../assets";
 const About = () => {
   return (
     <>
-      <div className="mt-10">
+      <div id="about" className="mt-10">
         <h2 className={`${styles.sectionHeadText}`}>About me</h2>
         <h2 className={`${styles.sectionSubText}`}>My Tech Journey</h2>
 
