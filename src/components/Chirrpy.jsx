@@ -1,5 +1,7 @@
 import React from "react";
 import { styles } from "../styles";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 const Chirrpy = () => {
   return (
     <>
@@ -10,6 +12,8 @@ const Chirrpy = () => {
           accurate text.
         </p>
         <section>
+          <LiteYouTubeEmbed id="pBanoEHxIao" title="Chirrpy web app demo" />
+
           <h2
             className={`${styles.sectionSubText} pl-4 border-l-4 border-emerald-400 mt-4`}
           >
